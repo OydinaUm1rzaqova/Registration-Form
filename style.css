@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;    
+    background-color: #ADD9E6;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width: 23rem;
+    background-color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 3px;
+}
+h1 {
+    text-align: center;
+}
+.content > .input,
+.content > .button {
+    margin: 20px;
+}
+.input > input::placeholder {
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-family:'Trebuchet MS', sans-serif;
+}
+.input > input{
+    width: 15.6rem;
+    height: 30px;
+    border: none;
+    background-color: #F6F2F1;
+    padding-left: 10px;
+    border-radius: 3px;
+    box-shadow: 8px 10px 8px #E2E2E2;
+}
+.button > button{
+    font-family:'Trebuchet MS', sans-serif;
+    width: 15.6rem;
+    border: none;
+    height: 1.8rem;
+    color: black;
+    background-color: #ADD9E6;
+    box-shadow: 10px 10px 10px #E2E2E2;
+    border-radius: 3px;
+}
